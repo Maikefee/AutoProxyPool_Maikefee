@@ -6,7 +6,7 @@
 运行方法:python3 server.py  
 
 如：dirsearch http://xxxx:8000/ --proxy=http://127.0.0.1:7777
-
+![](6.png)
 # 搜集使用新代理步骤如下：
 ## 1.搜集可用socks5代理
 免费代理url  http://free-proxy.cz/zh/proxylist/country/CN/socks5/ping/all  
