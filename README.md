@@ -10,23 +10,23 @@
 ## 1.搜集可用socks5代理
 免费代理url  http://free-proxy.cz/zh/proxylist/country/CN/socks5/ping/all  
 选择国家和代理类型(socks5),点击导出
-![](2020-07-23-16-53-25.png)
+![](1.png)
 
 ## 2.检测存活
 多线程检测socks.txt中的存活代理，写入alive.txt，并自动去重
-![](2020-07-23-16-54-27.png)
+![](2.png)
 
 
 ## 3.开启服务
 `python3 server.py`
 
 ## 4.设置burp设置http代理端口(不是socks5)
-![](2020-07-23-16-58-34.png)
+![](3.png)
 
 ## 5.测试
 访问 http://httpbin.org/ip ，多次刷新，发现访问ip一直在变  
-![](2020-07-23-16-59-25.png)
-![](2020-07-23-16-59-31.png)
+![](4.png)
+![](5.png)
 
 结果：
 
