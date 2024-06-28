@@ -5,7 +5,7 @@
 
 运行方法:python3 server.py  
 
-如：dirsearch http://xxxx:8000/ --proxy=http://127.0.0.1:7777
+如：dirsearch http://xxxx:8008/ --proxy=http://127.0.0.1:7777
 ![](6.jpg)
 # 搜集使用新代理步骤如下：
 ## 1.搜集可用socks5代理
